@@ -804,7 +804,7 @@ meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
 }
 
 .aficiones article:first-child {
-    background-color: rgba(15, 150, 33, 0.3);
+    background-color: rgb(7, 61, 14);
     /* background: linear-gradient(rgba(15, 150, 33, 0.3), rgba(9, 61, 58, 0.5)),
         url(../img/xbox4.jpg) no-repeat;
     background-size: cover; */
