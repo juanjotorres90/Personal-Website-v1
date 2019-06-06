@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /confirmacion.html
+Noindex: /confirmacion.html
+Disallow: /confirmacion-cat.html
+Noindex: /confirmacion-cat.html
+Disallow: /confirmacion-eng.html
+Noindex: /confirmacion-eng.html
+Disallow: /aficiones.html
+Noindex: /aficiones.html
+Disallow: /aficiones-cat.html
+Noindex: /aficiones-cat.html
+Disallow: /aficiones-eng.html
+Noindex: /aficiones-eng.html
+Disallow: /googlefd1e269aa6d8530c.html
+Noindex: /googlefd1e269aa6d8530c.html
+Disallow: /error404/404.html
+Noindex: /error404/404.html
