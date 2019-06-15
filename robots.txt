@@ -15,3 +15,4 @@ Disallow: /googlefd1e269aa6d8530c.html
 Noindex: /googlefd1e269aa6d8530c.html
 Disallow: /error404/404.html
 Noindex: /error404/404.html
+Sitemap: http://juanjotorres.cf/sitemap.xml
