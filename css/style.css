@@ -340,6 +340,7 @@ a.btn:hover::after {
     background-color: #b8d8d8;
     /* color: #a00013; */
     color: #cc940e;
+    animation: bounce 1.5s ease-in infinite;
 }
 
 /* Estructura */
@@ -503,6 +504,8 @@ footer a {
     text-decoration: none;
     color: #1f487e;
     font-size: 2rem;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
 }
 
 .curriculum h1 {
@@ -639,13 +642,17 @@ strong {
 
 footer {
     letter-spacing: 2.5rem;
-    line-height: 2.6rem !important;
+    line-height: 3rem !important;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 footer p {
     padding-top: 40px;
     letter-spacing: 0;
     font-size: 0.8rem;
+    width: 100%;
 }
 
 footer p span {
@@ -653,9 +660,51 @@ footer p span {
     vertical-align: -3px;
 }
 
+@keyframes bounce {
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    40%,
+    43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -8px, 0);
+      transform: translate3d(0, -8px, 0);
+    }
+  
+    70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(0, -2px, 0);
+      transform: translate3d(0, -2px, 0);
+    }
+  }
+  
+  .bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
 footer a:hover {
     /* color: #562038; */
+    display: block;
     color: #cc940e;
+    animation: bounce .8s ease-in;
 }
 
 .index header {

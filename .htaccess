@@ -5,10 +5,4 @@ ErrorDocument 404 /404.php
 php_value output_handler ob_gzhandler)
 
 
-<IfModule mod_alias.c>
-
-RedirectMatch 301 /sitemap\.xml$ http://juanjotorres.cf/sitemap.xml
-
-</IfModule>
-
 RewriteEngine off
