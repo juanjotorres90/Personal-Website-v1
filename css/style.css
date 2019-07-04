@@ -51,7 +51,8 @@ Black #1a1633
 footer a:nth-child(2),
 footer a:nth-child(3),
 footer a:nth-child(4),
-footer a:nth-child(7)
+footer a:nth-child(7),
+footer a:nth-child(8)
 {
   display: none;
 }
@@ -265,7 +266,9 @@ a.btn {
 .nav2 a:nth-child(3) {
     padding-right: 23px;
 }
-
+.nav2 a:nth-child(4) {
+    padding-right: 15px;
+}
 .nav2 a:last-child {
     padding-right: 19px;
 }
@@ -282,7 +285,7 @@ a.btn {
     color: #562038;
 }
 
-.contacto .nav2 a:nth-child(4) {
+.contacto .nav2 a:last-child {
     color: #562038;
 }
 
