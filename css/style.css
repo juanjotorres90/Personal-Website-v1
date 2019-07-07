@@ -136,6 +136,7 @@ ul.menu {
     opacity: 0;
     transition: opacity 0.8s ease-out;
     border-radius: 0 0 10px 10px;
+    display: none;
 }
 
 .submenu li:last-child a:hover {
@@ -189,6 +190,17 @@ ul.menu {
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     border: 1px solid #fff;
 }
+
+.es .esp {
+    display: none;
+}
+.ca .cat {
+    display: none;
+}
+.en .eng {
+    display: none;
+}
+
 
 .cat {
     background-image: url("../img/cat.png");
@@ -354,7 +366,9 @@ a.btn:hover::after {
     width: 100%;
     margin: 0 auto;
 }
-
+.index h1+h2{
+    padding-top: 1rem;
+}
 .index section {
     margin: 0px 0;
 }
@@ -486,15 +500,17 @@ footer {
 }
 
 .index header h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 4rem;
-    font-family: "Gugi", cursive;
+    font-family: "Poiret One","Gugi", cursive;
+    font-weight: 800;
 }
 
 .index header h2 {
-    font-size: 1.5rem;
-    line-height: 1.3rem;
-    font-family: "Passion One", cursive;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-family: "Montserrat","Passion One", cursive;
+    /* font-weight: 800; */
 }
 
 .index article,
@@ -512,9 +528,9 @@ footer a {
 }
 
 .curriculum h1 {
-    font-size: 2.3rem;
-    font-weight: 700;
-    font-family: "Neucha", cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Gugi","Neucha", cursive;
     letter-spacing: 2px;
 }
 
@@ -715,7 +731,7 @@ footer a:hover {
     background-image: url(../img/web-design.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.7;
+    opacity: 0.8;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     transition: all 1s;
     border-bottom: 10px solid #376996;
@@ -1513,7 +1529,7 @@ figure.effect-apollo:hover p {
 
     .index h1 {
         text-align: right;
-        font-size: 2.7rem !important;
+        font-size: 3rem !important;
     }
 
     .es .cat {
