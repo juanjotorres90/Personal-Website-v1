@@ -69,7 +69,12 @@ body {
     margin: 0 auto;
     box-shadow: 0 0 5px 5px #33333390;
 }
-
+/* figure {
+    height: 230px !important;
+}
+.effect-apollo {
+    height: 350px !important;
+} */
 /* Navigation bar */
 
 .nav {
@@ -502,14 +507,14 @@ footer {
 .index header h1 {
     font-size: 3.5rem;
     line-height: 4rem;
-    font-family: "Poiret One","Gugi", cursive;
+    font-family: "Poiret One","Gugi";
     font-weight: 800;
 }
 
 .index header h2 {
     font-size: 1.2rem;
     line-height: 1.8rem;
-    font-family: "Montserrat","Passion One", cursive;
+    font-family: "Montserrat","Passion One";
     /* font-weight: 800; */
 }
 
@@ -530,13 +535,13 @@ footer a {
 .curriculum h1 {
     font-size: 2rem;
     font-weight: 600;
-    font-family: "Gugi","Neucha", cursive;
+    font-family: "Gugi","Neucha";
     letter-spacing: 2px;
 }
 
 .curriculum h2 {
     font-size: 1.2rem;
-    font-family: "Neucha", cursive;
+    font-family: "Neucha";
 }
 
 .curriculum section {
@@ -641,7 +646,7 @@ dd + dd {
     padding-top: 110px;
     font-size: 2rem;
     font-weight: 600;
-    font-family: "Dancing Script", cursive;
+    font-family: "Dancing Script";
 }
 
 figcaption {
@@ -720,9 +725,9 @@ footer p span {
   }
 
 footer a:hover {
-    /* color: #562038; */
+    color: #562038;
     display: block;
-    color: #cc940e;
+    /* color: #cc940e; */
     animation: bounce .8s ease-in;
 }
 
@@ -1203,7 +1208,7 @@ legend {
 
 /* Distancia entre elementos */
 .form div {
-    padding: 10px 5%;
+    padding: 0px 5%;
 }
 
 /* Formato de las etiquetas */
