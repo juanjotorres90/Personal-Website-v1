@@ -1,8 +1,0 @@
-php_value display_errors 1
-
-ErrorDocument 404 /404.php
-
-php_value output_handler ob_gzhandler)
-
-
-RewriteEngine off
