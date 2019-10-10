@@ -1111,11 +1111,15 @@ meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
 iframe {
     opacity: 0.9;
 }
-.contacto {
-    display: block;
-}
+
 .contacto .container {
-    margin: 0 auto;
+    width: 600px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto .container div {
+    width: 100%;
 }
 .contacto header {
     background-image: url(../img/paper.jpg);
@@ -1572,18 +1576,19 @@ figure.effect-apollo:hover p {
         background-position: 0;
     }
     .curriculum header {
-           padding: 60px 50px 50px 50px;
+           padding: 60px 30px 50px 50px;
         }
         
     .curriculum h1,
     .curriculum h2 {
-        display: block;
-        width: 55%;
-        margin: 0.1rem 0 0.4rem 60%;
+        /* display: block; */
+        /* width: 55%; */
+        /* padding: 1.5rem 0 0.4rem 60%; */
+        text-align: right;
     }
 
     .curriculum h2 {
-        margin: 0rem 0 0 60%;
+        /* margin: 0rem 0 0 60%; */
         font-size: 1rem;
         line-height: 1.2rem;
     }
