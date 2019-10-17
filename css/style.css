@@ -502,7 +502,7 @@ footer {
 }
 
 .confirmacion main p {
-    padding: 100px 10% 100px 10%;
+    padding: 30% 10% 30% 10%;
 }
 
 /* Tipografía */
@@ -1117,6 +1117,8 @@ iframe {
      display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
+    /* justify-content: center; */
 }
 .contacto .container div {
     width: 100%;
@@ -1134,6 +1136,13 @@ iframe {
 .confirmacion main {
     background-color: #c9b59e73;
     line-height: 2rem;
+}
+.confirmacion header, .confirmacion footer {
+    width: 100%;
+}
+.confirmacion footer {
+    margin-top: auto;
+    align-content: flex-end;
 }
 q::before, q::after {
     content: '\201C';
